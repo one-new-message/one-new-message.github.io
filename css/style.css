@@ -1,3 +1,7 @@
+:root {
+  --accent: #78b159;
+}
+
 body {
   background-color: #222;
   color: #fff;
@@ -11,4 +15,9 @@ h1 {
 
 p {
   font-family: serif;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
 }
