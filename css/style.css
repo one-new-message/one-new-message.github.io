@@ -10,6 +10,26 @@ body {
   margin: auto;
 }
 
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  margin: 0;
+  display: inline-block;
+}
+
+nav .active {
+  filter: brightness(1.0);
+}
+
+nav img {
+  filter: brightness(0.5);
+}
+nav img:hover {
+  filter: brightness(1.0);
+}
+
 h1 {
   font-size: 2.5em;
   font-family: sans-serif;
@@ -23,6 +43,7 @@ h2 {
 p {
   font-family: serif;
   text-align: left;
+  margin: 1em;
 }
 
 .buttons {
