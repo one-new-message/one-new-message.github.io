@@ -4,7 +4,22 @@
     <title>emory meow site</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <script async src="https://umami.littlemeow.cc/script.js" data-website-id="e3e34b93-d28d-4584-9ca3-e711da27f7c6"></script>
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function () {
+        var u = "//littlemeow.cc/matomo/";
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+      })();
+    </script>
+    <noscript>
+      <p><img src="//littlemeow.cc/matomo/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p>
+    </noscript>
   </head>
   <body>
     <h1>emory meow site</h1>
